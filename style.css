@@ -1,0 +1,143 @@
+body {
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/background.jpg);
+  background-size : cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: 0;
+}
+.erreur{
+  color: red;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.succ {
+  color: green;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+  color : white;
+  text-decoration: none;
+}
+a:visited {
+  color : white;
+  text-decoration : none;
+}
+.nav
+{
+  float : left;
+  list-style: none;
+}
+.nav li {
+  display: inline-block;
+  margin-top: 50px;
+}
+.nav li a {
+  text-decoration: none;
+  color : white;
+  font-size: 20px;
+  padding: 30px;
+}
+.nav li a:hover {
+  border: 1px solid white;
+}
+.nav li a.active {
+  border : 1px solid white;
+  padding: 30px;
+}
+.text{
+text-decoration: none;
+float :right;
+list-style: none;
+margin-top: 50px;
+margin-left: 50px;
+}
+.loggout-button {
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.loggout-button:hover {
+  opacity:1;
+}
+.login-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.login-button:hover {
+  opacity:1;
+}
+
+input[type=text], input[type=password],input[type=email] {
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password],input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.tes{
+  background-color: white;
+}
+.sign-form{
+  color :white;
+  font-size : 20px;
+}
+.formulaire{
+  margin-left : 500px;
+  margin-right :500px;
+  border: 2px solid white;
+  padding:30px 20px;
+}
+.box{
+  width:100%;
+}
+.signup-submit{
+  width :100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.signup-submit:hover{
+opacity :1;
+}
+
+.Can a{
+  display: inline-block;     
+   position: relative;    
+   z-index: 1;     
+   padding: 2em;     
+   margin: -2em; 
+  width:100%;
+  text-decoration: none;
+  color: white;
+}
+.can a:hover{
+  opacity :2;
+}
+.can{
+  width :100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
